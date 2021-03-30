@@ -10,8 +10,7 @@ router.get("/", (req, res) => {
 
 router.get("/:id", (req, res, next) => {
     const projectId = req.params.id;
-    const project = projects.find(({id}) => id === +projectId);
-
+    const project = projects.find(({id}) => id.toString() === projectId);
     if (project) {
         res.render("project", {project});
     } else {

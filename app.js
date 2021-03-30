@@ -23,14 +23,17 @@ app.use("/projects", projectsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-    next(createError(404, 'We can\'t seem to find the page you\'re looking for.'));
+    next(createError(404,'We can\'t seem to find the page you\'re looking for.'));
 });
 
 // global catch error
 app.use((err, req, res, next) => {
     if (err.status === 404) {
+        console.log(err.message);
         res.render("page-not-found", { err });
     } else {
+        err.message = err.message || 'Take it easy, I don\'t think it\'s about you. Press the button on the bottom and enjoy'
+        console.log(err.message);
         res.status(err.status || 500).render("error", { err });
     }
 });
