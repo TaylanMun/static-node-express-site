@@ -21,18 +21,22 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #fefefe;
-  background: #000;
+  background: #DDDDDD;
+  background: #85144b;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
 
 article {
-  background: #fefefe;
+  background: #DDDDDD;
 }
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+}
+
+h1,h2,h3,h4,h5 {
+  text-shadow: 2px 2px #fff;
 }
 
 h5{
@@ -63,7 +67,7 @@ a {
   min-width: 320px;
   height: 100%;
   min-height: 100%;
-  background: #fefefe;
+  background: #DDDDDD;
 }
 
 .flex-row-wrap {
@@ -82,7 +86,7 @@ a {
   width: 100%;
   max-width: 1200px;
   padding: 40px 50px 30px;
-  background: #fefefe;
+  background: #DDDDDD;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -137,7 +141,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: #85144b;
 }
 
 .sidebar-info-box {
@@ -148,6 +152,11 @@ nav a span {
   padding: 0 10px;
 }
 
+.thumbnail-box-logo {
+  padding: 0 10px;
+  text-align: center;
+}
+
 .sidebar .thumbnail {
   width: 100%;
   max-width: 250px;
@@ -156,6 +165,10 @@ nav a span {
 
 .dev-intro-box {
   padding: 10px;
+}
+
+.dev-intro-box h4, h5 {
+  text-shadow: 2px 2px #111;
 }
 
 .sidebar h5 {
@@ -171,12 +184,12 @@ nav a span {
 }
 
 .sidebar a {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: #111111;
 }
 
 .header {
@@ -184,7 +197,7 @@ nav a span {
   color: #fefefe;
   height: 40px;
   padding: 0.5rem;
-  background: #0a0a0a;
+  background: #85144b;
   border-left: 1px solid #0a0a0a;
 }
 
@@ -201,7 +214,7 @@ nav a span {
   width: 20px;
   height: 16px;
   border: none;
-  background: #0a0a0a;
+  background: #85144b;
   margin-top: 3px;
   margin-right: 10px;
   border-top: 2px solid #fefefe;

@@ -1,59 +1,36 @@
-extends layout.pug
+extends layout.pug 
 
-block content
-
-  nav.nav
-    a(href='/')
-      span &larr;
-      |  Back
-
-  article.portfolio-about
-    .inner-wrapper.flex-row-wrap.two-col
-      .about-intro-box.box
-
-        //- Replace with your name
-        h1 Name
-
-        //- Feel free to personalize the title below
-        p Full Stack JavaScript Developer
-
-
-        .about-bio
-
-          //- Replace the boilerplate below with your best elevator pitch
-          p This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
-
-
-      .skills-contact-box.box
-        h6 Skills
-
-        //- Replace skills below with your own skills — at this point, you should be able to list as many as ten skills
-        ul
-          li HTML
-          li CSS
-          li JavaScript
-          li Git and GitHub
-          li VS Code
-          li Accessibility
-          li OOP
-          li Fetch and Public APIs
-          li Node.js
-          li Express
-          li Pug
-
-        h6 Contact Info
-
-        //- Replace with your own contact info - feel free to use fake information if you prefer
-        ul
-          li 555-555-1234
-          li email@email.com
-
-        //- Add URLs to the hrefs below to link to your social media accounts - feel free to use non-personal links to social media home pages if you prefer
-        a.btn-link(href='') LinkedIn
-        a.btn-link(href='') GitHub
-        a.btn-link(href='') Twitter
-
-    nav.nav
-      a(href='/')
+block content 
+    nav(class="nav")
+      a(href="/")
         span &larr;
-        |  Back
+        |  Back      
+    article(class="portfolio-about")
+        div(class="inner-wrapper flex-row-wrap two-col")
+            div(class="about-intro-box box")
+                h1 Taylan Mun
+                p Full Stack Web Developer
+                .about-bio
+                    p I am working as a web developer. I use Php actively as a programing language, for framework I use MVC. In addition that I use Javascript in the front end part. Also If it is necessary, I use React Js. I love to constantly improve myself. So, I keep improving myself day by day. Technology is improving every day. As a technology lover, I take great pleasure in keeping up with this.I like to reveal software problems, that way I can fix them. These software problems help me to improve myself.
+            div(class="skills-contact-box box")
+                h6 Skills
+                ul
+                    li PHP
+                    li JavaScript
+                    li React
+                    li HTML
+                    li CSS
+                    li Java
+                    li JQuery
+                    li OOP
+                h6 Contact Info 
+                ul 
+                    li 553-553-1234
+                    li taylan@taylan.com
+                a(class="btn-link", href="https://www.linkedin.com/in/taylanmun/", target="_blank") Linkedin
+                a(class="btn-link", href="https://github.com/taylanmun", target="_blank") GitHub
+                a(class="btn-link", href="https://twitter.com/", target="_blank") Twitter
+        nav(class="nav")
+          a(href="/")
+              span &larr;
+              |  Back

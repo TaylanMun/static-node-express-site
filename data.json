@@ -1,0 +1,54 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "Random Harry Potter famous quotes each time a button is clicked.",
+            "technologies": ["Javascript", "CSS", "HTML"],
+            "live_link": "https://taylanmun.github.io/Random-Quote-Generator-v1/",
+            "github_link": "https://github.com/TaylanMun/Random-Quote-Generator-v1",
+            "image_urls": ["/static/images/1_02.jpg", "/static/images/1_03.jpg"],
+            "mainpicture_url": "/static/images/1_01.jpg"
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "Implementation of data pagination and filtering.",
+            "technologies":  ["Javascript", "HTML", "CSS"],
+            "live_link": "https://taylanmun.github.io/data-pagination-and-filtering/",
+            "github_link": "https://github.com/TaylanMun/data-pagination-and-filtering",
+            "image_urls": ["/static/images/2_02.jpg", "/static/images/2_03.jpg"],
+            "mainpicture_url": "/static/images/2_01.jpg"
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "This is interactive form with Javascript Register for Full Stack Conference.",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "https://taylanmun.github.io/interactive-form/",
+            "github_link": "https://github.com/TaylanMun/interactive-form",
+            "image_urls": ["/static/images/3_02.jpg", "/static/images/3_03.jpg"],
+            "mainpicture_url": "/static/images/3_01.jpg"
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "Phrase Hunter a browser-based game. Guess the word with a keyboard press or mouse click.",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "https://taylanmun.github.io/oop-game-show-app/",
+            "github_link": "https://github.com/TaylanMun/oop-game-show-app",
+            "image_urls": ["/static/images/4_02.jpg", "/static/images/4_03.jpg", "/static/images/4_04.jpg", "/static/images/4_05.jpg"],
+            "mainpicture_url": "/static/images/4_01.jpg"
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Request",
+            "description": "This is a Awesome Startup Employee Directory.Using Random User Generator API (https://randomuser.me/).",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "https://taylanmun.github.io/public-api-request/",
+            "github_link": "https://github.com/TaylanMun/public-api-request",
+            "image_urls": ["/static/images/5_02.jpg", "/static/images/5_03.jpg", "/static/images/5_04.jpg"],
+            "mainpicture_url": "/static/images/5_01.jpg"
+        }
+    ]
+}

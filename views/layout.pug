@@ -1,39 +1,33 @@
-<!DOCTYPE html>
-html(lang="en" dir="ltr")
-  head
-    meta(charset='utf-8')
-    meta(http-equiv='x-ua-compatible', content='ie=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Portfolio Site
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
-    link(rel='stylesheet', href='/static/css/normalize.css')
-    link(rel='stylesheet', href='/static/css/styles.css')
-
-  body
-    #my-info.sidebar
-      .sidebar-info-box
-        br
-        .thumbnail-box
-          img.thumbnail(src='https://placehold.it/550x350', alt='')
-        .dev-intro-box
-
-          //- Replace with your name
-          h5 Name
-
-          //- Replace with description of who you are, what you do, and why you are so awesome
-          p Description
-
-          //- Add path from your '/about' route handler to the href below
-          a(href='') Learn More &rarr;
-
-    .wrapper
-      .header
-        .header-info-box
-          button#menu-icon.menu-icon(type='button' data-toggle='my-info')
-
-          //- Replace with your name — this is for the mobile layout
-          span Name
-
-      block content
-
-  script(src='/static/js/script.js')
+doctype html 
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Taylan Mun Portfolio
+        link(rel='shortcut icon' href='/static/images/favicon.ico' type='image/x-icon')
+        link(rel="stylesheet", href="/static/css/normalize.css")
+        link(rel="stylesheet", href="/static/css/styles.css")    
+    body 
+        div(class="sidebar", id="my-info")
+          div(class="sidebar-info-box")
+            br
+            div(class="thumbnail-box-logo")
+              a(href="/")
+                img(src='/static/images/logo_tm.jpg', alt='myLogo', width="64", height="64")
+              hr
+            div(class="thumbnail-box")
+              img.thumbnail(src='/static/images/mypicture.jpg', alt='')
+            div(class="dev-intro-box")
+              h5 Taylan Mun
+              h4(style="color:#fff") Software Engineer - JavaScript is indispensable for me like the other people in the world
+              a(href="/about", class="more_link") Learn More &rarr;
+        div(class="wrapper")
+            div(class="header")
+              div(class="header-info-box")
+                button(class="menu-icon" id="menu-icon" type="button" data-toggle="my-info")
+                span(style="float:right") Taylan MUN 
+                a(href="/")
+                  img.thumbnail(src='/static/images/logo_tm.jpg', alt='myLogo', width="36", height="36", style="margin-top:-7px")
+            block content
+        script(src="/static/js/script.js")
