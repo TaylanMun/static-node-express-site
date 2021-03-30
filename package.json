@@ -14,5 +14,14 @@
     "express": "^4.17.1",
     "http-errors": "^1.8.0",
     "pug": "^3.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaylanMun/static-node-express-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TaylanMun/static-node-express-site/issues"
+  },
+  "homepage": "https://github.com/TaylanMun/static-node-express-site#readme"
 }
