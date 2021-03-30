@@ -48,8 +48,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     $ npm start
 
 ## Description
-
-    - [Added Error Pages](https://codepen.io/Navedkhan012/pen/vrWQMY)
+- [Added Error Pages](https://nodejs.org/https://codepen.io/Navedkhan012/pen/vrWQMY/)
     - Some bootstrap classed added for error page
     - Added custom logo, first letters of name and surname, header and sidebar
     - Added custom background color
