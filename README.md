@@ -49,10 +49,10 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Description
 - [Added Error Pages](https://nodejs.org/https://codepen.io/Navedkhan012/pen/vrWQMY/)
-    - Some bootstrap classed added for error page
-    - Added custom logo, first letters of name and surname, header and sidebar
-    - Added custom background color
-    - Only change font family sidebar more link button 
-    - Added Sidebar h4,h5 text shadow
-    - Added other h1,h2,h3,h4,h5 text shadow
-    - Small changes have been made some elements (ex. margin,text-align)
+- Some bootstrap classed added for error page
+- Added custom logo, first letters of name and surname, header and sidebar
+- Added custom background color
+- Only change font family sidebar more link button 
+- Added Sidebar h4,h5 text shadow
+- Added other h1,h2,h3,h4,h5 text shadow
+- Small changes have been made some elements (ex. margin,text-align)
