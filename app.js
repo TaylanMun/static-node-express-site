@@ -17,7 +17,7 @@ const aboutRouter = require("./routes/about");
 const projectsRouter = require("./routes/project");
 
 // add routes
-app.use("/", indexRouter);
+app.use(indexRouter);
 app.use("/about", aboutRouter);
 app.use("/project", projectsRouter);
 
