@@ -8,6 +8,6 @@ block content
     article(class="portfolio-project-thumbs")
         div(class="projects-box box grid")
             each project in projects
-              a.cell(href=`/projects/${project.id}`)
+              a.cell(href=`/project/${project.id}`)
                 img(class="thumbnail", src=`${project.mainpicture_url}`, alt=`${project.project_name}`)
                 h3(style="margin-top:0px; color:#111")= project.project_name

@@ -5,7 +5,7 @@ const createError = require("http-errors");
 const { projects } = require("../data.json");
 
 router.get("/", (req, res) => {
-    return res.redirect("/projects/0");
+    return res.redirect("/project/0");
 })
 
 router.get("/:id", (req, res, next) => {
